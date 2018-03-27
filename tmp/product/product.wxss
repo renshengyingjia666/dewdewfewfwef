@@ -1,0 +1,25 @@
+.img1{
+  width: 100%;
+  height:120px;
+}
+
+.product{
+  background-color:white;
+  width: 46%;
+  display: inline-block;
+  margin: 2% 1% 0 2%;
+}
+.product image{
+  margin-top: 8%;
+  width: 80%;
+  height:150px;
+}
+.title{
+  padding-right: 40%;
+  font-size:27rpx;  
+}
+.price{
+  color: red;
+    padding-right: 50%;
+    margin-bottom: 5%;
+}

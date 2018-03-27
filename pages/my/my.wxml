@@ -1,0 +1,30 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 授权登陆 </button>
+    <block wx:else>
+      <image  bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+       <text class="icon1"> > </text>
+    </block>
+  </view>
+  <view class='div1'>
+  我的预约
+  </view>
+  
+    <view class='div1'>
+  历史订单
+  </view>
+
+  <view class='div1'>
+  系统通知
+  </view>
+
+    <view class='div1'style="margin-top:1%;">
+  联系客服
+  </view>
+
+</view>
+
+
+

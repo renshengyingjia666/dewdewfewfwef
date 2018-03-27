@@ -1,0 +1,8 @@
+<!--tmp/product.wxml-->
+<template name="product">
+  <view class="product" wx:for="{{products}}">
+    <image src="http://cdn.jisuapp.cn/zhichi_frontend/static/webapp/images/default.png"></image> 
+   <view class='title'>商品标题</view>
+   <view class='price'>￥100</view>
+  </view>
+  </template>
